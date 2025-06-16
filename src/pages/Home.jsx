@@ -18,7 +18,7 @@ export const Home = () => {
               Hello,
             </p>
             <p>
-              This is <span className="text-pink-600">Rafansa Oktaviano</span>,
+              This is <span className="text-indigo-600 hover:text-indigo-700 transition">Rafansa Oktaviano</span>,
               I'm a Professional
             </p>
             <p>
