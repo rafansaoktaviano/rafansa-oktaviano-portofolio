@@ -24,7 +24,7 @@ const SocialSection = () => {
 
       {/* Instagram */}
       <a
-        href="https://www.instagram.com/rafansa"
+        href="https://www.instagram.com/ravansaoktaviano"
         target="_blank"
         rel="noopener noreferrer"
         className="flex items-center space-x-2 text-pink-500 hover:opacity-80 transition"

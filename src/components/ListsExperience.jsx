@@ -3,7 +3,7 @@ import logosenja from "../assets/logo-senja.png";
 
 const ListsExperience = () => {
   return (
-    <div className="w-[50%]">
+    <div className="w-full lg:w-[50%]">
       <div className="w-full bg-slate-200 h-[100px] rounded-xl flex items-center justify-between gap-4  p-4 border mb-4">
         <div className="flex gap-4 ">
           <img
@@ -13,7 +13,7 @@ const ListsExperience = () => {
           />
 
           <div className="flex flex-col">
-            <h3 className="  text-slate-700 font-semibold tracking-tight text-xl">
+            <h3 className="  text-slate-700 font-semibold tracking-tight text-xl whitespace-nowrap">
               Full Stack Web Developer
             </h3>
             <p className="text-slate-700 font-semibold tracking-tight text-sm">
@@ -25,9 +25,9 @@ const ListsExperience = () => {
           href="https://dashboard.rebill-pos.com/demo"
           target="_blank"
           rel="noopener noreferrer"
-          className="bg-blue-500 hover:bg-blue-600 text-white text-sm px-4 py-2 rounded-lg transition"
+          className="ml-[40px] sm:ml-0 bg-blue-500 hover:bg-blue-600 text-white text-sm px-4 py-2 rounded-lg transition"
         >
-          Live Demo
+          Demo
         </a>
       </div>
       <div className="w-full bg-slate-200 h-[100px] rounded-xl flex items-center justify-between gap-4  p-4 border ">
@@ -51,9 +51,9 @@ const ListsExperience = () => {
           href="https://hummerdream.com"
           target="_blank"
           rel="noopener noreferrer"
-          className="bg-blue-500 hover:bg-blue-600 text-white text-sm px-4 py-2 rounded-lg transition"
+          className=" ml-[40px] sm:ml-0  bg-blue-500 hover:bg-blue-600 text-white text-sm px-4 py-2 rounded-lg transition"
         >
-          Live Demo
+          Demo
         </a>
       </div>
     </div>

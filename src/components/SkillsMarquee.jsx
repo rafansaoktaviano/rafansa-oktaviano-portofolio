@@ -35,7 +35,7 @@ const skills = [
 
 const SkillsMarquee = () => {
   return (
-    <div className="py-6 ">
+    <div className="py-6 " data-aos="fade-up">
       <Marquee gradient={false} speed={50}>
         {skills.map((skill, idx) => (
           <div
