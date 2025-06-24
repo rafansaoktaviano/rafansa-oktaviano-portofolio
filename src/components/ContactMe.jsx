@@ -30,7 +30,7 @@ const ContactMe = () => {
             <div className="flex items-center gap-4">
               <MdEmail size={24} />
               <p className="text-gray-700 text-sm">
-                rafansaoktaviano@gmail.com
+                ravansaoktaviano@gmail.com
               </p>
             </div>
           </div>
