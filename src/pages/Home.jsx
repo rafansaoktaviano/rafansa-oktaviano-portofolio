@@ -4,11 +4,13 @@ import SocialSection from "../components/SocialSection";
 
 import Lottie from "lottie-react";
 import animationData from "../assets/animation-expe.json";
+import educationAnimation from "../assets/education-animation.json";
 import SkillsMarquee from "../components/SkillsMarquee";
 import ListsExperience from "../components/ListsExperience";
 import ProjectList from "../components/ProjectList";
 import ContactMe from "../components/ContactMe";
 import Title from "../components/Title";
+import ListEducation from "../components/ListEducation";
 
 export const Home = () => {
   return (
@@ -32,11 +34,11 @@ export const Home = () => {
 
             <SocialSection />
             <a
-              class="group bg-slate-950 hover:bg-slate-800 transition-colors inline-block mt-8 font-mono text-xs font-semibold rounded-full px-8 py-3 text-white"
+              className="group bg-slate-950 hover:bg-slate-800 transition-colors inline-block mt-8 font-mono text-xs font-semibold rounded-full px-8 py-3 text-white"
               href="#contactme"
             >
               Contact Me{" "}
-              <span class="inline-block group-hover:translate-x-2 transition-transform">
+              <span className="inline-block group-hover:translate-x-2 transition-transform">
                 --→
               </span>
             </a>
@@ -70,7 +72,22 @@ export const Home = () => {
 
         <ProjectList />
 
-        {/* <Title idHref={"education"}>Education</Title> */}
+        <Title idHref={"education"}>Education</Title>
+
+        <div
+          className="flex flex-col gap-16 lg:gap-0 lg:flex-row"
+          data-aos="fade-up"
+        >
+          <div className="h-[400px] w-full lg:w-[50%] mt-[-100px] sm:mt-[-100px]">
+            <Lottie
+              animationData={educationAnimation}
+              loop
+              autoplay
+              className="w-full h-full"
+            />
+          </div>
+          <ListEducation />
+        </div>
 
         <Title idHref={"contactme"}>Contact Me</Title>
 
