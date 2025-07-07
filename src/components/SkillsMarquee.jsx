@@ -1,3 +1,4 @@
+import React from "react";
 import Marquee from "react-fast-marquee";
 import { FaHtml5, FaCss3Alt, FaReact, FaNode, FaGitAlt,  } from "react-icons/fa";
 import {
@@ -42,7 +43,7 @@ const SkillsMarquee = () => {
             key={idx}
             className="flex flex-col items-center justify-center text-[#1e293b] mx-3 p-4 border border-[#d3dce6] rounded-lg w-32 h-28 bg-white shadow-sm"
           >
-            {skill.icon}
+            {React.cloneElement(skill.icon, { 'aria-hidden': true })}
             <span className="mt-2 text-sm font-semibold">{skill.name}</span>
           </div>
         ))}

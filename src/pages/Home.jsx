@@ -18,19 +18,19 @@ export const Home = () => {
       <div className=" px-4 md:px-0 max-w-2xl xl:max-w-screen-lg 2xl:max-w-screen-2xl mx-auto pb-40">
         <div className="grid grid-cols-1  lg:grid-cols-2" data-aos="fade-up">
           <div className="text-3xl font-saans font-bold leading-10 text-gray-800 md:font-extrabold lg:text-[2.5rem] lg:leading-[3.5rem] mt-[50px] mb-20 lg:mb-0">
-            <p className="text-3xl lg:text-[2.1rem] font-extrabold text-gray-900">
-              Hello,
-            </p>
-            <p>
-              This is{" "}
-              <span className="text-indigo-600 hover:text-indigo-700 transition">
-                Rafansa Oktaviano
+            <h1 className="text-3xl lg:text-[2.1rem] font-extrabold text-gray-900 leading-10 text-gray-800 md:font-extrabold lg:text-[2.5rem] lg:leading-[3.5rem] mt-[50px] mb-20 lg:mb-0">
+              <span>Hello,</span>
+              <br />
+              <span>
+                This is{" "}
+                <span className="text-indigo-600 hover:text-indigo-700 transition">
+                  Rafansa Oktaviano
+                </span>
+                , I'm a Professional
               </span>
-              , I'm a Professional
-            </p>
-            <p>
+              <br />
               <span className="text-teal-600">Software Developer</span>.
-            </p>
+            </h1>
 
             <SocialSection />
             <a
